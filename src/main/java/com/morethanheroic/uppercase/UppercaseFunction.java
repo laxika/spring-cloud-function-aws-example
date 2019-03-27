@@ -8,7 +8,7 @@ import com.morethanheroic.uppercase.domain.UppercaseRequest;
 import com.morethanheroic.uppercase.domain.UppercaseResponse;
 import com.morethanheroic.uppercase.service.UppercaseService;
 
-@Component("uppercaseFunction")
+@Component
 public class UppercaseFunction implements Function<UppercaseRequest, UppercaseResponse> {
 
     private final UppercaseService uppercaseService;
